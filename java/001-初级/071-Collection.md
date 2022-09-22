@@ -42,7 +42,20 @@ list.add("python");
 
 Iterator<String> it = list.iterator();
 while (it.hasNext()) {
-    System.out.println(it.next());
+    System.out.println("iterator--" + lt.next());
 }
 </code>
-+ 2、
++ 2、for 循环
+<code>
+for (String dom : list) {
+    System.out.println("for--" + dom);
+}
+</code>
++ 3、lambda表达式
+<code>
+list.forEach(s -> {
+    System.out.println("forEach--" + s);
+});
+</code>
+
+## 自定义 类型（对象）
