@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>翻书效果</title>
+</head>
+<style>
+    .box {
+        width: 840px;
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+
+        transition: all 2s;
+        transform-origin: left center;
+        transform-style: preserve-3d;
+    }
+
+    .page {
+        width: 420px;
+        height: 560px;
+        border: 1px dashed palegreen;
+    }
+
+    .page-home {
+        margin: 0 auto;
+        background: peru;
+        text-align: center;
+        color: bisque;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        transform: rotateX(-20deg) rotateY(-50deg);
+    }
+
+    .page-left {
+        width: 420px;
+        height: 560px;
+        position: relative;
+    }
+
+    .page-left div{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .page-right {
+        width: 420px;
+        height: 560px;
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .page2 {
+        width: 420px;
+        height: 560px;
+        background: url('./images/book-1.png');
+        background-size: cover;
+    }
+
+    .page3 {
+        width: 420px;
+        height: 560px;
+        background: url('./images/book-2.png');
+        background-size: cover;
+    }
+
+    .page4 {
+        width: 420px;
+        height: 560px;
+        background: url('./images/book-3.png');
+        background-size: cover;
+    }
+
+    .page5 {
+        width: 420px;
+        height: 560px;
+        background: url('./images/book-4.png');
+        background-size: cover;
+    }
+
+    .page6 {
+        width: 420px;
+        height: 560px;
+        background: url('./images/book-5.png');
+        background-size: cover;
+    }
+</style>
+
+<body>
+    <div class="box">
+        <div class="page page-home">
+            <div class="book-name">
+                <p>书</p>
+                <p>的</p>
+                <p>封</p>
+                <p>面</p>
+            </div>
+        </div>
+        <div class="page page-left">
+            <div class="page3"></div>
+            <div class="page5"></div>
+        </div>
+        <div class="page page-right">
+            <div class="page2"></div>
+            <div class="page4"></div>
+            <div class="page6"></div>
+        </div>
+    </div>
+</body>
+
+</html>

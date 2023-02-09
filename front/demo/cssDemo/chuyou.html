@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全民出游</title>
+</head>
+<style>
+    .box {
+        width: 140px;
+        height: 140px;
+        margin: 100px auto;
+        background-image: url('./images/ren.png');
+        background-position: 0 0;
+        animation:  jump 2s linear infinite;
+    }
+
+    @keyframes jump {
+        0% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(100px);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+</style>
+
+<body>
+    <div class="box"></div>
+</body>
+
+</html>

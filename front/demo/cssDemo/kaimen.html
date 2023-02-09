@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开门效果</title>
+</head>
+<style>
+    .box {
+        width: 960px;
+        height: 540px;
+        background: rosybrown;
+        background: url('./images/kaimen-2.jpg');
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .box::before,
+    .box::after {
+        content: '';
+        background: url('./images/kaimen-1.jpg');
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+
+    .box::after {
+        background-position: right 0;
+    }
+
+    .box:hover::before {
+        transition: all 2s;
+        transform: rotate3d(90deg);
+    }
+
+    .box:hover::after {
+        transition: all 2s;
+        transform: translate(100%);
+    }
+</style>
+
+<body>
+    <div class="box">
+        <!-- <div class="box-left"></div> -->
+        <!-- <div class="box-right"></div> -->
+    </div>
+</body>
+
+</html>
