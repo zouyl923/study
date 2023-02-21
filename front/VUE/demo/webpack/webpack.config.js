@@ -18,5 +18,19 @@ module.exports = {
         static: {
             directory: path.join(__dirname, '/')
         }
+    },
+    module: {
+        //所有第三方文件模块的匹配规则
+        rules: [
+            //文件后缀名的匹配规则
+            //处理css css-loader
+            { test: /\.css$/, use: ['style-loader', 'css-loader'] },
+            //处理less less-loader 
+            { test: /\.less$/, use: ['style-loader', 'css-loader', 'less-loader'] },
+            //处理图片loader url-loader
+            { test: /\.jpg|png|gif$/, use: ['url-loader?limit=470'] },
+            //处理js 高级语法 babel-loader exclude排除 node_modules 目录下文件
+            { test: /\.js$/, use: ['babel-loader'], exclude: /node_modules/ },
+        ]
     }
 }
