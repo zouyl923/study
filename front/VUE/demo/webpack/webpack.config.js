@@ -28,7 +28,7 @@ module.exports = {
             //处理less less-loader 
             { test: /\.less$/, use: ['style-loader', 'css-loader', 'less-loader'] },
             //处理图片loader url-loader
-            { test: /\.jpg|png|gif$/, use: ['url-loader?limit=470'] },
+            { test: /\.jpg|png|gif$/, use: ['url-loader?limit=470&outputPath=images'] },
             //处理js 高级语法 babel-loader exclude排除 node_modules 目录下文件
             { test: /\.js$/, use: ['babel-loader'], exclude: /node_modules/ },
         ]
