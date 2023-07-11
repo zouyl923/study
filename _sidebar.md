@@ -2,11 +2,11 @@
 * [markdown](/markdown.md)
 * 前端
   * [基础篇](/front/base/index.md)
-  * [VUE3](/front/base/index.md)
-<!-- * 后端
-  * [docker](/server/docker) -->
-<!-- * 数据库
-  * [docker](/server/docker) -->
+  * [VUE3](/front/vue3/index.md)
+* 后端
+  * [php](/backend/php/index.md)
+* 数据管理
+  * [mysql](/database/mysql/index.md)
 * 服务器运维
   * [docker](/server/docker/index.md)
     * [虚拟机与容器](/server/docker/vmAndContainer.md)
