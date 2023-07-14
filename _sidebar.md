@@ -3,6 +3,17 @@
 * 前端
   * [基础篇](/front/base/index.md)
   * [VUE3](/front/vue3/index.md)
+    * [组件通讯方式-父传子](/front/vue3/props.md)
+    * [组件通讯方式-子传父](/front/vue3/event.md)
+    * [组件通讯方式-兄弟互传](/front/vue3/bus.md)
+    * [组件通讯方式-v-model](/front/vue3/v-model.md)
+    * [组件通讯方式-useAttrs](/front/vue3/useAttrs.md)
+    * [组件通讯方式-ref&$parent](/front/vue3/ref.md)
+    * [组件通讯方式-provide&inject](/front/vue3/provide.md)
+    * [组件通讯方式-pinia](/front/vue3/pinia.md)
+    * [组件通讯方式-slot](/front/vue3/slot.md)
+  * [项目篇](/front/project/index.md)
+    * [项目篇](/front/project/index.md)
 * 后端
   * [php](/backend/php/index.md)
 * 数据管理
