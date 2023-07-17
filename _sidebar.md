@@ -12,8 +12,17 @@
     * [组件通讯方式-provide&inject](/front/vue3/provide.md)
     * [组件通讯方式-pinia](/front/vue3/pinia.md)
     * [组件通讯方式-slot](/front/vue3/slot.md)
+    * [组件-全局组件注册](/front/vue3/global.md)
   * [项目篇](/front/project/index.md)
-    * [项目篇](/front/project/index.md)
+    * [pnpm](/front/project/pnpm.md)
+    * [eslint](/front/project/eslint.md)
+    * [prettier](/front/project/prettier.md)
+    * [styleLint](/front/project/stylelint.md)
+    * [husky](/front/project/husky.md)
+    * [commitLint](/front/project/commitLint.md)
+    * [mock](/front/project/mock.md)
+    * [axios](/front/project/axios.md)
+    * [api统一管理](/front/project/api.md)
 * 后端
   * [php](/backend/php/index.md)
 * 数据管理
