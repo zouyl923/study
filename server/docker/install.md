@@ -45,6 +45,20 @@ sudo apt-get install \
     software-properties-common
 ```
 
-+ 启动docker
++ docker命令
 ``` bash
+# 启动
+systemctl start docker
+# 停止
+systemctl stop docker
+# 重启
+systemctl restart docker
+# 信息
+systemctl info docker
+
+# docker 指令集
+docker --help
+
+# docker 指令示例
+docker cp --help  # cp指令的示例
 ```
