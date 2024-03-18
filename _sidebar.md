@@ -45,11 +45,9 @@
       - [recover](/backend/go/base/recover.md)
       - [网络编程](/backend/go/base/network.md)
       - [反射](/backend/go/base/reflect.md)
-    - goframe框架
-      - [简介](/backend/go/goframe/index.md)
-      - [环境配置](/backend/go/goframe/env.md)
-      - [项目初始化](/backend/go/goframe/init.md)
-      - [路由](/backend/go/goframe/route.md)
+
+- 网络
+  - [基础](network/index.md)
 - 数据库
   - mysql
     - [基础](/database/mysql/index.md)
@@ -80,8 +78,8 @@
     - [监控工具](/server/docker/portainer.md)  
   - [kubernetes](/server/kubernetes/index.md)
     - [主节点](/server/kubernetes/master/index.md)
-      - [安装](/server/kubernetes/master/install.md)
     - [子节点](/server/kubernetes/master/index.md)
+    - [debain案例](/server/kubernetes/debain_case.md)
 - 随笔
   - [技术职级变化](/other/coder.md)
  
